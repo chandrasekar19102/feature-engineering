@@ -1,0 +1,65 @@
+Types of Encoding :
+
+Categorical varibales:
+          Eg : sex= "male" , "female" thisis categorical varibales
+          
+1)           Nominal Encoding (eg gender or state )
+2)           Ordinal Encoding (eg rearrange categorical data based on rank like eduction qulification )
+
+
+Nominal Encoding :
+                  One hot encoding
+                  One hot encoding with many categorical variable
+                  Mean Encoding and also more
+                  
+Ordinal Encoding :
+                  label encoding
+                  target guided ordinal encoding
+                  
+                  
+                  
+ONE HOT ENCODING 
+
+
+  Eg state : germany,france,spain  based on categorical data that many colums will be create
+  this case 3 columns are create 1 in intersection of data or diagonals are 1 others are    1 
+  
+
+Label Encoding  (odinal encoding)
+  
+  
+   Education BE,       1
+             Master,   2
+             Phd,      3 
+             Statician 4
+             
+             
+One hot encoding with multiple categorical varibale
+
+   KDD orange reference
+   
+   if categorical data contains duplicated we ignore duplicates and create unique    columns             
+   
+   
+Target Guided ordinal encoding
+
+
+     calculate mean value for every categorical varibale 
+     based on mean value rearrange features
+     
+
+Mean Encoding 
+
+
+     if we feature A B C D E  w.r.t o/p 1 0 1 0 1
+     calculate mean with respect to ouput 
+     just replace the categorical varible to respective rank
+     
+     real time application is pincode data set
+     if we have 10000 pincode we cant create 10000 columns 
+     based on means of feature value we can use that data     
+ 
+             
+             
+  
+                    

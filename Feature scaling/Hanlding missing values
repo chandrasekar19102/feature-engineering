@@ -1,0 +1,13 @@
+Hanlding missing values in categorical values
+
+step 1: Delele the rows ( accuracy will reduce in many cases ) million of record we can delete 
+
+step 2: Replace with the most frequent values
+
+step 3: Create classifier algorithm to predict 
+
+
+step 4: Unsupervised ML ( if we have f1 categorical and f2 nd f3 are numerical to found mission in f1 make two group and name missed label based on groups
+
+
+

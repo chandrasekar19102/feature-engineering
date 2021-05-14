@@ -1,0 +1,26 @@
+why feature scaling
+
+features { magnitudes , units }
+height  { 160 ,124} 
+weights {45,  56}
+
+for example if we have 124450 values in one feature if we r using K means cluster in that we are creating some points in data set 124450 is so big we cant map in plot so we need to scale that value
+
+
+scaling should happen respective feature
+
+
+which algorithm requied for scaling
+
+* Linear Regression
+* K means (unsupervised )
+* KNN 
+
+  linear regression is bascially found out with the help of gradient descent 
+  in linear regression the coefficient should be converge at global minima
+  
+doesnot required feature scaling technique
+
+* Decision Tree (if u do scaling or not doing that tree branch will be same)
+* RF
+* XG boost  
